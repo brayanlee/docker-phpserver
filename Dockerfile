@@ -6,4 +6,4 @@ ADD index.php /var/www/html/index.php
 
 EXPOSE 80
 
-#CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
